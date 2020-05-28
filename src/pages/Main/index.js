@@ -61,7 +61,7 @@ export default function Main() {
     const data = await saveRepository(response.data);
 
     setRepositories(
-      repositories.map((repo) => (repo.id === data.id ? data : repo)),
+      repositories.map(repo => (repo.id === data.id ? data : repo)),
     );
   }
 
@@ -85,7 +85,7 @@ export default function Main() {
       <List
         keyboardShouldPersistTaps="handled"
         data={repositories}
-        keyExtrator={(item) => String(item.id)}
+        keyExtrator={item => String(item.id)}
         renderItem={({item}) => (
           <Repository
             data={item}

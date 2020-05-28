@@ -17,6 +17,7 @@ export default function Repository({data, onRefresh}) {
     <Container>
       <Name>{data.name}</Name>
       <Description>{data.description}</Description>
+
       <Stats>
         <Stat>
           <Icon name="star" size={16} color="#333" />
