@@ -1,9 +1,9 @@
 # realm-github-mobile
 :octocat: Projeto React Native para consumo da API do GitHub com RealmDB
 
-## :rocket: Tecnologias Usadas
+## :rocket: Tecnologias utilizadas
 
-O projeto foi feito com as seguintes tecnologias:
+O projeto foi feito utilizando as seguintes tecnologias:
 
 - [RealmDB](https://realm.io/products/realm-database/)
 - [React Native](https://reactnative.dev/)
